@@ -1,0 +1,17 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap') */
+.box1{
+    
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+
+    margin: 50px 0px 0px 50px;
+    padding:50px 50px 50px 90px;
+}
+.heading1{
+    text-align: center;
+}
+.heading2{
+    font-family: "Pacifico", cursive;
+}

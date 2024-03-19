@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class2</title>
+    <h3>Internal CSS</h3>
+
+    <style>
+        h6 {
+            color: aqua;
+            background-color: black;
+        }
+
+        ul {
+            list-style: lower-alpha;
+        }
+
+        ol {
+            list-style: lower-greek;
+        }
+
+        table,
+        thead,
+        tr,
+        th,
+        tbody,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .myworld {
+            color: blueviolet;
+        }
+
+        #myworld {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>LIST</h1>
+    <h2>Unorder List</h2>
+    <ul>
+        <li><a href=""></a>Home</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Contact Us</li>
+    </ul>
+    <h2>Order List</h2>
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Contact Us</li>
+    </ol>
+    <h3>inline css</h3>
+    <p style="color: blueviolet;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum accusantium fugit natus
+        fuga nulla alias perspiciatis porro sunt harum excepturi architecto adipisci aliquam dolor, quam dolorum
+        voluptatem dicta voluptatum est!</p>
+
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat architecto iste adipisci cupiditate libero,
+        repudiandae, praesentium excepturi ullam aut fugit quia unde dignissimos quas, tempore voluptatem porro.
+        Sapiente, magni eaque?</h6>
+
+
+
+
+
+
+    <h1>Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl No</th>
+                <th>Student Name</th>
+                <th>Mobile No</th>
+                <th>College</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Siddhant</td>
+                <td>9348453835</td>
+                <td>NIT</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chandan</td>
+                <td>6370777958</td>
+                <td>NIT</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pratyush</td>
+                <td>7847066978</td>
+                <td>NIT</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>Pratyush</td>
+                <td>7847066978</td>
+                <td>NIT</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h1 class="myworld">Hello World</h1>
+    <h1 id="myworld">Hello World</h1>
+
+    <h1>Form</h1>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" value="Altab" readonly>
+        </div>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" value="Altab" readonly>
+        </div>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" value="Altab" readonly>
+        </div>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Your Name" value="Altab" readonly>
+        </div>
+    </form>
+
+
+
+
+    <h1>form part2</h1>
+
+
+
+    <form action="">
+        <div>
+            <label for="">DOB</label>
+            <input type="date" value="2024-03-12">
+        </div>
+
+        <div>
+            <label for="">Month</label>
+            <input type="month">
+        </div>
+        <div>
+            <label for="">Selection Session</label>
+
+        </div>
+        <div>
+            <label for="">DOB</label>
+            <input type="date" value="2024-03-12">
+        </div>
+        <div>
+            <label for="">DOB</label>
+            <input type="date" value="2024-03-12">
+        </div>
+
+        <div>
+            <label for="">Select Gender</label>
+
+            <label>
+                <option value="">Select session</option>
+                <option value="2020-2024">2020-2024</option>
+                <option value="2021-2025">2021-2025</option>
+                <option value="2022-2026">2022-2026</option>
+                <option value="2023-2027">2023-2027</option>
+                <option selected value="2024-2028">2024-2028</option>
+
+            </label>
+
+        </div>
+
+        <div>
+            <label for="">Hobbies</label>
+
+            <label for="Playing"> <input type="chechbox" id="Playing"> Playing</label>
+            <label for="coding"> <input type="chechbox" id="coding"> coding</label>
+            <label for="Playing"> <input type="chechbox" id="Playing"> Playing</label>
+
+        </div>
+
+        <div>
+            <label for="">Upload Image</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" placeholder="************">
+        </div>
+        <div>
+            <label for="">Date & Time</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label for="">Time</label>
+            <input type="time">
+        </div>
+
+
+
+
+    </form>
+
+    <h1>iframe</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DhEbZh7DFC0?si=tAzqBa0RLx-BOAtb"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>" ></iframe>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991626110945!2d2.29190637671723!3d48.858370071332196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1710316265609!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe src="ai.pdf" width="300" height="400" frameborder="0"></iframe>
+    <iframe src="https://wegotthiscovered.com/wp-content/uploads/2022/09/One-Piece-Monkey-D-Luffy-e1693333525114.jpg" frameborder="0"></iframe>
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
